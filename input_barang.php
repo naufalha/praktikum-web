@@ -1,7 +1,6 @@
 <?php
 
 ?>
-
 <form method="post" action="insert_barang.php">
   <label for="kode_barang">kode_barang</label>
   <input type="text" id="kode_barang" name="kode_barang"><br>
