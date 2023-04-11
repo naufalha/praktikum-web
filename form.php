@@ -34,7 +34,8 @@ $conn=mysqli_connect('localhost','root','','informatika');
 <input type='submit' value='Masukan' name='submit'>
 </form>
 <?php
-error_reporting(E_ALL^E_NOTICE);
+error_reporting(E_ERROR | E_PARSE);
+#error_reporting(E_ALL^E_NOTICE);
 $nim = $_POST['nim'];
 $nama = $_POST['nama'];
 $kelas = $_POST['kelas'];
