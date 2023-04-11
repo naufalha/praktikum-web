@@ -27,7 +27,7 @@ echo"
 <td align='center' width='30%'>$data[1]</td>
 <td align='center' width='10%'>$data[2]</td>
 <td align='center'><a href='update_barangform.php?Kode_barang=$data[0]'>update</a></td>
-<td align='center'><a href='hapus_barang.php?kode_barang=$data[0]'>hapus</a></td>
+<td align='center'><a href='hapus_barang.php?Kode_barang=$data[0]'>hapus</a></td>
 </tr>";
 }
 ?>
