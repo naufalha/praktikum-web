@@ -9,7 +9,7 @@
 
     <body>
         <h3>table barang</h3>
-        <table border='1' width='50%'>
+        <table border='1' >
 <tr>
 <td align='center' width='20%'><b>Kode_barang</b></td>
 <td align='center' width='30%'><b>Nama_barang</b></td>
@@ -23,10 +23,10 @@ $hasil_cari = mysqli_query($connG,$cari);
 while ($data = mysqli_fetch_row($hasil_cari)){
 echo"
 <tr>
-<td width='20%'>$data[0]</td>
-<td width='30%'>$data[1]</td>
-<td width='10%'>$data[2]</td>
-<td><a href='hapus_barang.php?Kode_barang=$data[0]'>hapus</a></td>
+<td align='center' width='20%'>$data[0]</td>
+<td align='center' width='30%'>$data[1]</td>
+<td align='center' width='10%'>$data[2]</td>
+<td align='center'><a href='hapus_barang.php?Kode_barang=$data[0]'>hapus</a></td>
 </tr>";
 }
 ?>
@@ -40,8 +40,8 @@ echo"
     <h3>daftar gudang</h3>
     <table border='1' width='50%'>
 <tr>
-<td align='center' width='20%'><b>Kode_gudang</b></td>
-<td align='center' width='30%'><b>Nama_gudang</b></td>
+<td align='center' width='10%'><b>Kode_gudang</b></td>
+<td align='center' width='10%'><b>Nama_gudang</b></td>
 <td align='center' width='10%'><b>Alamat</b></td>
 </tr>
 <?php
@@ -50,9 +50,9 @@ $hasil_cari = mysqli_query($connG,$cari);
 while ($data = mysqli_fetch_row($hasil_cari)){
 echo"
 <tr>
-<td width='20%'>$data[0]</td>
-<td width='30%'>$data[1]</td>
-<td width='10%'>$data[2]</td>
+<td align='center' width='10%'>$data[0]</td>
+<td align='center' width='10%'>$data[1]</td>
+<td align='center' width='10%'>$data[2]</td>
 </tr>";
 }
 ?>
