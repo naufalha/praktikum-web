@@ -1,7 +1,7 @@
 <?php
 	$conn= mysqli_connect('localhost', 'root', '','gudang');
 	
-	$Kode_barang=$_POST['kode_barang'];
+
 	$Nama_barang=$_POST['Nama_barang'];
 	$Kode_gudang=$_POST['kode_gudang'];
 
